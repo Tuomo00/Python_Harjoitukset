@@ -1,0 +1,13 @@
+.quote {
+  font-style:italic;
+  color:#666;
+}
+.subscript{
+  vertical-align:sub;
+}
+.bold {
+  font-weight: bold;
+}
+.superscript {
+  vertical-align:super;
+}

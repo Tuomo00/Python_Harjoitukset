@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+<title>harjoitus6</title>
+<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<h1>Order from my webshop</h1>
+<form>
+  <div>
+  <label for="fname" class="required">First name</label>
+  <input type="text" id="fname" name="fname" required placeholder="First Name">
+  <span>&nbsp;</span>
+  </div>
+  <div>
+  <label for="lname" class="required">Last name</label>
+  <input type="text" id="lname" name="lname" required placeholder="Last Name">
+  <span>&nbsp;</span>
+  </div>
+  <div>
+  <label for="address" class="required">Address</label>
+  <input type="text" id="address" name="address" required placeholder="Address">
+  <span>&nbsp;</span>
+  </div>
+  <div>
+  <label for="zip" class="required">Zip</label>
+  <input type="tel" id="zip" name="zip" required placeholder="Zip Number">
+  <span>&nbsp;</span>
+  </div>
+  <div>
+  <label for="city" class="required">City</label>
+  <input type="text" id="city" name="city" required placeholder="City">
+  <span>&nbsp;</span>
+  </div>
+  <div>
+  <label for="email" class="required">E-mail</label>
+  <input type="text" id="email" name="email" required placeholder="E-mail">
+  <span>&nbsp;</span>
+  </div>
+  <div>
+  <label for="payment" class="required">Payment</label>
+  <select name="payment" id="payment">
+    <option value="mastercard">MasterCard</option>
+    <option value="visa">Visa</option>
+    <option value="visae">Visa Electron</option>
+  </select>
+  </div>
+  <div>
+  <input type="checkbox"><label>I want to receive a newsletter</label>
+  </div>
+  <br><br>
+  
+  <button type="submit">Order</button>
+</form>
+</body>
+</html>

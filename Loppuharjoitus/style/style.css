@@ -1,0 +1,240 @@
+body {
+    background-color:rgb(0, 0, 0);
+    font-size: 32px;
+    margin: 0;
+    height: 100%;
+}
+ul {
+    list-style-type: none;
+    padding: 20px 5px 10px 5px;
+    background-color: grey;
+    text-align: left;
+    width: 100%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+li {
+    display: inline-block;
+    margin-left:15px;
+    height:70px;
+}
+li a {
+    color:white;
+    text-decoration: none;
+    padding-top:20px;
+    padding-bottom:28px;
+    width: auto;
+    font-size: 3em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+a:hover {
+    background-color: black;
+    color:white;
+
+}
+article {
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.5em;
+}
+header {
+    margin: 30px 15px 0px 15px;
+}
+.oamk {
+    float: right;
+    margin-right: 20px;
+    height:100px;
+}
+.footer {
+    bottom: 0px;
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    height: 70px;
+    color: white;
+    text-decoration: none;
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align:center;
+    position:fixed;
+  }
+.contact {
+    padding-bottom:20px;
+    bottom: 5px;
+  }
+a.link_text {
+    text-decoration: none;
+    color: lightblue;
+  }
+section.asia{
+    border: solid 1px black;
+    height: 15em;
+    width: 60%;
+    margin-left: 15px;
+    background-color:rgb(94, 94, 94);
+    border-radius: 10px;
+    color:white;
+    overflow-y: scroll;
+}
+section.asia2{
+    border: solid 1px black;
+    height: 15em;
+    width: 60%;
+    margin-left: 15px;
+    background-color:rgb(94, 94, 94);
+    border-radius: 10px;
+    color:white;
+    overflow-y: scroll;
+}
+section.asia3{
+    border: solid 1px black;
+    height: 10em;
+    width: 50%;
+    margin-left: 15px;
+    background-color:rgb(94, 94, 94);
+    border-radius: 10px;
+    color:white;
+}
+h2.otsikko{
+    text-align:center;
+}
+.essee{
+    margin: 20px;
+    text-align: center;
+}
+.laptop{
+    float:right;
+    width: 30%;
+    margin-right:2em;
+    margin-top:5em;
+    border-radius:10px;
+}
+.copyright{
+    float:right;
+    width: 30%;
+    margin-right:2em;
+    margin-top:2em;
+    border-radius:10px;
+}
+.source_link{
+    text-decoration: none;
+    color:cyan;
+}
+.source_link:hover{
+    font-weight:bold;
+}
+@media only screen and (min-width: 300px) {
+    header{
+        min-height:150px;
+    }
+    li{
+        font-size:0.5rem;
+    }
+    .footer{
+        min-height:90px;
+        font-size: 0.8em;
+    }
+    .contact{
+        margin-top:1px;
+    }
+ }
+@media only screen and (min-width: 600px) {
+    .footer{
+        min-height:50px;
+        font-size: 0.8em;
+    }
+    header{
+        min-height:100px;
+    }
+    li{
+        font-size:0.7rem;
+    }
+    .contact{
+        margin-top:10px;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .laptop{
+        float:unset;
+        margin-left: 1rem;
+        min-width: 10em;
+        padding-top:0;
+        margin-top:0;
+    }
+    section.asia{
+        width:100%;
+        margin:0;
+
+    }
+}
+@media only screen and (max-width: 460px) {
+    .laptop{
+        display:none;
+    }
+    header{
+        margin-right:0;
+        margin-left:0;
+    }
+    .footer{
+        display:none;
+    }
+}
+    @media only screen and (min-width: 1200px) {
+        li{
+            font-size:1rem;
+        }
+        .contact{
+            margin-top:20px;
+        }
+}
+@media only screen and (max-width: 810px) {
+    .copyright{
+        float:unset;
+        margin-left: 1rem;
+        min-width: 10em;
+        padding-top:0;
+        margin-top:0;
+    }
+    section.asia2{
+        width:100%;
+        margin:0;
+
+    }
+}
+@media only screen and (max-width: 460px) {
+    .copyright{
+        display:none;
+    }
+}
+@media only screen and (max-width: 810px) {
+    .portrait{
+        float:left;
+        margin-left: 1em;
+        padding-top:1em;
+        margin-top:0;
+    }
+    section.asia3{
+        width:100%;
+        margin:0;
+
+    }
+}
+@media only screen and (max-width: 460px) {
+    .portrait{
+        display:none;
+    }
+}
+@media only screen and (min-width: 460px) {
+    .portrait{
+        max-width:20%;
+        margin-right:4em;
+        margin-left: 1em;
+    }
+}
+@media only screen and (min-width: 810px) {
+    .portrait{
+        float:right;
+        margin-left: 1em;
+        padding-top:1em;
+        margin-top:0;
+    }
+}

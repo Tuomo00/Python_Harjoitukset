@@ -1,0 +1,88 @@
+/* 
+    Created on : Sep 4, 2019
+    Author     : liisa auer
+*/
+body {
+    font-family: tahoma, arial, sans-serif;
+    background-color: #BBDBE8;
+}
+
+main {
+    padding: 16px;
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+footer ul {
+   margin-top: 0;
+   padding-left: 0;
+}
+
+footer li {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+section,
+footer {
+    border-top: 2px solid blue;
+}
+
+@media screen and (min-width: 640px) {
+    figure,
+    section p {
+        display: inline-block;
+        vertical-align: bottom;
+        width: 45%;
+    }
+
+    section {
+        margin-bottom: 16px;
+    }
+
+    figure {
+        margin-right: 16px;
+    }
+
+    footer div {
+        display: inline-block;
+        vertical-align: top;
+        width: 48%;
+    }
+
+    footer div:last-child {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1030px) {
+    main {
+        background-color: #82BDD4;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        display: inline-block;
+        width: 45%;
+        vertical-align: top;
+        margin-right: 16px;
+    }
+
+    figure,
+    section p {
+        display: block;
+        width: 100%;
+    }
+}

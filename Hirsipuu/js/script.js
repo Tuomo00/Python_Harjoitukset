@@ -8,7 +8,8 @@ const words = [
   "database",
   "markup",
   "framework",
-  "variable"
+  "variable",
+  "coding"
 ]
 
 let randomizedWord = ''

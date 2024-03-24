@@ -1,0 +1,30 @@
+body {
+  background-color: white;
+}
+p {
+  font-size: 20px;
+}
+.number {
+  font-size: 28px;
+  width: 50%;
+
+}
+#jokeriNumbers td{
+  text-align: center;
+  border: 1px solid;
+  background-color: bisque;
+  border-radius: 10px;
+  padding:10px;
+}
+div{
+  margin-left:0.5em;
+}
+#jokeriNumbers{
+  border-spacing: 30px;
+}
+button{
+  border-radius: 7px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px;
+  cursor:pointer;
+}

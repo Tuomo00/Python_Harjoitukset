@@ -1,0 +1,23 @@
+body{
+  margin:0;
+  padding:0;
+}
+.image-container{
+  margin-right: 10px;
+  text-align:center;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+}
+.maincontent{
+  display:flex;
+  padding-top:3%;
+  padding-left: 10px;
+  flex-wrap: wrap;
+}
+img{
+  max-width: 100%;
+  width:150px;
+}
+.img-name{
+  display:block;
+}

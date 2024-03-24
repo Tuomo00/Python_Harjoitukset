@@ -1,0 +1,36 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  background-color: grey;
+}
+div{
+  margin-bottom:0.8em;
+}
+input[type="text"] , input[type="tel"], input[type="email"], select{
+  padding:0.2em;
+  width:33ch;
+}
+label{
+  display:block;
+}
+.required::after{
+  content: " *";
+  color:red;
+}
+input:invalid + span{
+  display:inline-block;
+  background: url('/CSS_Harjoitus_6/kuvat/invalid_small.png') no-repeat;
+  width:12px;
+}
+input:valid + span{
+  display:inline-block;
+  background: url('/CSS_Harjoitus_6/kuvat/valid_small.png') no-repeat;
+  width:12px;
+}
+input[type="checkbox"] + label {
+  display:inline-block;
+}
+input[type="checkbox"]:checked + label:after {
+  content:" to my email";
+}

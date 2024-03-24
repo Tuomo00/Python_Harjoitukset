@@ -1,0 +1,28 @@
+body {
+    size: 10000px;
+}
+html {
+    background-color:black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container {
+    padding: 0;
+    font-size: 32px;
+    background-color:black;
+    size:1000px;
+}
+h1 {
+    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    margin: 0.01rem;
+    height: 300px;
+    width: 80%;
+    background-color: brown;
+}
+p {
+    font-size: 0.5em;
+    height: 300px;
+    line-height: 1em;
+    margin: 0.5em;
+}
